@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:giftsbyai/constants/styles.dart';
 import 'package:giftsbyai/screens/landing_screen.dart';
 
 void main() {
-  runApp(ProviderScope(child: const MyApp()));
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
